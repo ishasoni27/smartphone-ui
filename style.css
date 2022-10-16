@@ -1,0 +1,352 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin:0 ; 
+    padding: 0;
+    background-color: black;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(6.png) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 200px;
+    transition: 0.2s ease-in-out;
+}
+
+nav img:hover{
+    width: 220px;
+}
+
+.nav-links{
+    flex: 3;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+    position: relative;
+    
+}
+
+.nav-links ul li a{
+    color: black ; 
+    text-decoration: none;
+    font-size: 20px ;
+    font-weight: 600 ;
+    transition: 0.3s ease-in-out;
+    border: 1px ;
+    padding: 5px;
+}
+
+.nav-links ul li a:hover{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px 30px;
+    box-shadow: 0 0 10px 0 black;
+    background-color: black;
+    color: azure;
+}
+
+/* ===============================first section============================= */
+
+.brilliant{
+    /* transition: 0.5s ease-in; */
+    overflow: hidden;
+    position: relative;
+}
+
+.brilliant-img{
+    background-image: url(1.png);
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.brilliant-text{
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1.5s ease-in;
+    color: transparent;
+    margin-left: 40px;
+}
+
+.brilliant-text h1{
+    font-size: 40px;
+}
+
+.brilliant-text p{
+    font-size: 20px;
+    width: 50%;
+}
+
+.brilliant:hover .brilliant-text{
+    color: azure;
+    transform: translateY(-300%);
+}
+
+/* ===========================second section============================== */
+
+.considered{
+    /* transition: 0.5s ease-in; */
+    overflow: hidden;
+    position: relative;
+}
+
+.considered-img{
+    
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size:auto;
+    /* position: relative; */
+}
+
+.considered-text{
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+    top: 0;
+    transition: 2s ease-in;
+    text-align: left;
+    color: transparent;
+    margin-left: 30px;
+}
+
+.considered-text h1{
+    font-size: 40px;
+}
+
+.considered-text p{
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.considered:hover .considered-text{
+    color: black;
+    transform: translateY(400%);
+}
+
+/* ========================================third section===================================== */
+
+.perfected{
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+}
+
+.perfected-img{
+    
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size:auto;
+    /* position: relative; */
+}
+
+.perfected-text{
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+    bottom: 0;
+    transition: 2.5s ease-in; 
+    text-align: left;
+    color: transparent;
+}
+
+.perfected-text h1{
+    font-size: 40px;
+}
+
+.perfected-text p{
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.perfected:hover .perfected-text{
+    color: azure;
+    transform: translateX(47%);
+}
+
+/*====================================== fourth section ======================================*/
+
+.exceptional{
+    overflow: hidden;
+    position: relative;
+    right: 0;
+}
+
+.exceptional-img{
+    
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size:auto;
+    /* position: relative; */
+}
+
+.exceptional-text{
+    position: absolute;
+    bottom: 0;
+    transition: 2.5s ease-in;
+    text-align: right;
+    color: transparent;
+    width: 30%;
+}
+
+.exceptional-text h1{
+    font-size: 40px;
+    
+}
+
+.exceptional-text p{
+    font-size: 20px;
+}
+
+.exceptional:hover .exceptional-text{
+    color: black;
+    transform: translateX(220%);
+}
+
+/* =============================fifth section ============================== */
+
+.powerful{
+    transition: 0.5s ease-in;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+}
+
+.powerful-img{
+    
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size:auto;
+    /* position: relative; */
+}
+
+.powerful-text{
+    position: absolute;
+    bottom: 0;
+    transition: 2.5s ease-in;
+    text-align: right;
+    color: transparent;
+    width: 30%;
+}
+
+.powerful-text h1{
+    font-size: 40px;
+}
+
+.powerful-text p{
+    font-size: 20px;
+}
+
+.powerful:hover .powerful-text{
+    color: azure;
+    transform: translateX(225%) ;
+    bottom: 250px;
+} 
+
+/* =============================sixth section ============================ */
+
+.responsible{
+    transition: 0.5s ease-in;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+}
+
+.responsible-img{
+    
+    width : 100%;
+    min-height: auto;
+    background-position: left;
+    background-size:auto;
+    /* position: relative; */
+}
+
+.responsible-text{
+    position: absolute;
+    bottom: 0;
+    transition: 2s ease-in;
+    text-align: right;
+    color: transparent;
+    width: 30%;
+}
+
+.responsible-text h1{
+    font-size: 40px;
+}
+
+.responsible-text p{
+    font-size: 20px;
+}
+
+.responsible:hover .responsible-text{
+    color: azure;
+    transform: translateX(225%) ;
+    bottom: 250px;
+} 
+
+/* =====================specifications =================== */
+
+.specs h1{
+    color: azure;
+    text-align: left;
+    font-size: 30px ; 
+    margin: 40px;
+}
+.specs-text{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-basis: 31%;
+}
+
+
+/* ========================= footer ======================= */
+
+.footer{
+    border: 1px solid azure; 
+    box-shadow: 0 0 10px 0 rgba(0, 0 , 0 , 0.7);  
+    margin: 10px;
+    /* background-image: linear-gradient(to bottom rgba(0,0,0,0.2)); */
+}
+
+.footer .rows{
+    color: azure;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-basis: 31%;
+}
+
+.footer .col3 img{
+    width: 15px;
+    height: 15px;
+}
